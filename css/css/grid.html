@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        section {
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows: 200px 200px 50px 200px ;
+            /* border: 2px solid rgb(12, 2, 2); */
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+
+
+        img {
+           
+            width: 100%;
+            height: 100%;
+        }
+
+        #img1 {
+            grid-row: 1;
+            grid-column: 1;
+        }
+
+        #img2 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #img3{
+            grid-row:1;
+            grid-column: 3;
+        }
+        #img4{
+            grid-row: 1;
+            grid-column: 4;
+        }
+        #img5{
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+        #img6{
+            grid-row: 2;
+            grid-column: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #img7{
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+        #img8{
+            grid-row-start: 3;
+            grid-row-end: 5;
+           
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box" id="img1" title="img1"><img src="./assests/images/download (1).jpeg" alt=""></div>
+        <div class="box" id="img2" title="img2"><img src="./assests/images/download.jpeg" alt=""></div>
+        <div class="box" id="img3" title="img3"><img src="./assests/images/Ganga Aarti Banaras.jpeg" alt=""></div>
+        <div class="box" id="img4" title="img4"><img src="./assests/images/Hampta Pass Trek - Manali ❤.jpeg" alt="">
+        </div>
+        <div class="box" id="img5" title="img5"><img src="./assests/images/Kalga Village - Kasol Parvati Valley.jpeg"
+                alt=""></div>
+        <div class="box" id="img6" title="img6"><img src="./assests/images/Manali.jpeg" alt=""></div>
+        <div class="box" id="img7" title="img7"><img src="./assests/images/peace.jpeg" alt=""></div>
+        <div class="box" id="img8" title="img8"><img
+                src="./assests/images/mera dil, kahin dur…pahado mein kho gaya_.jpeg" alt=""></div>
+        <div class="box" id="img9" title="img9"><img src="./assests/images/travel.jpeg" alt=""></div>
+    </section>
+</body>
+
+</html>

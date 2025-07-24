@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d_grid</title>
+    <style>
+        .d_gried{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+            column-gap: 30px;
+            row-gap: 30px
+            ;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border: 2px solid;
+        }
+        #img-1{
+            grid-column: 1;
+            grid-row: 1;
+        }
+        #img-2{
+            grid-column-start:3 ;
+            grid-column-end:6 ;
+            grid-row: 1;
+        }
+        #img-3{
+            grid-column-start: 7;
+            grid-column-end:8 ;
+            grid-row: 1;
+        }
+        #img-4{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row: 2;
+        }
+        #img-5{
+            grid-column-start:5 ;
+            grid-column-end:6 ;
+            grid-row: 2;
+        }
+        #img-6{
+            grid-column-start:6 ;
+            grid-column-end:8 ;
+            grid-row: 2;
+        }
+        #img-7{
+            grid-column: 1;
+            grid-row: 3;
+        }
+        #img-8{
+            grid-column-start:2 ;
+            grid-column-end:4 ;  
+            grid-row: 3;
+        }
+        #img-9{
+            grid-column-start: 4;
+            grid-column-end:8 ;
+            grid-row: 3; 
+        }
+        #img-10{
+            grid-column-start:1 ;
+            grid-column-end: 3;
+            grid-row: 4;
+        }
+        #img-11{
+            grid-column-start:3 ;
+            grid-column-end: 4;
+            grid-row: 4;  
+        }
+        #img-12{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row: 4;  
+        }
+        #img-13{
+            grid-column-start:5 ;
+            grid-column-end: 6;
+            grid-row: 4;  
+        }
+        #img-14{
+            grid-column-start: 6;
+            grid-column-end: 8;
+            grid-row: 4;  
+        }
+
+    </style>
+</head>
+<body>
+    <section class="d_gried">
+        <img src="./assests/images/green.jpeg" id="img-1"  title="img-1">
+        <img src="./assests/images/green.jpeg" id="img-2"  title="img-2">
+        <img src="./assests/images/green.jpeg" id="img-3"  title="img-3">
+        <img src="./assests/images/green.jpeg" id="img-4"  title="img-4">
+        <img src="./assests/images/green.jpeg" id="img-5"  title="img-5">
+        <img src="./assests/images/green.jpeg" id="img-6"  title="img-6">
+        <img src="./assests/images/green.jpeg" id="img-7"  title="img-7">
+        <img src="./assests/images/green.jpeg" id="img-8"  title="img-8">
+        <img src="./assests/images/green.jpeg" id="img-9"  title="img-9">
+        <img src="./assests/images/green.jpeg" id="img-10"  title="img-10">
+        <img src="./assests/images/green.jpeg" id="img-11"  title="img-11">
+        <img src="./assests/images/green.jpeg" id="img-12"  title="img-12">
+        <img src="./assests/images/green.jpeg" id="img-13"  title="img-13">
+        <img src="./assests/images/green.jpeg" id="img-14" title="img-14">
+        
+    </section>
+</body>
+</html>

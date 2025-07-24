@@ -1,0 +1,44 @@
+p {
+  color: red;
+  font-size: 22px;
+}
+
+h1 {
+  color: chartreuse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*/ body {
+  background-color: red;
+}
+
+div {
+  background-color: grey;
+  text-align: center;
+  */ border: 2px solid black;
+
+
+  .circle {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: auto;
+    padding: auto;
+  }
+
+  .img1 {
+    background-image: url(./assests/images/shaili.jpeg);
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .color1 {
+    background-color: rgba(135, 207, 235, 0.377);
+    height: 30px;}
+
+}
